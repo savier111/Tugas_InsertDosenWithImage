@@ -33,8 +33,8 @@ public class LihatDosen extends AppCompatActivity {
 
     private void addData(){
         dataDosenArrayList = new ArrayList<>();
-        dataDosenArrayList.add(new DataDosen("72160071-Eben Haezer", "S.Kom","Jl.Nologaten","ebenhaezer688@gmail.com"));
-        dataDosenArrayList.add(new DataDosen("72160070-Setiawan","S.Kom","Jl.Seturan Raya", "setiawanel16@gmail.com"));
+        dataDosenArrayList.add(new DataDosen("00000001-Yetli", "S.Kom","Jl.Godean","yetli@gmail.com"));
+        dataDosenArrayList.add(new DataDosen("00000002-Katon","S.Kom","Jl.Seturan Raya", "katon@gmail.com"));
     }
 
 

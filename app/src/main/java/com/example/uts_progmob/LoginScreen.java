@@ -66,6 +66,9 @@ public class LoginScreen extends AppCompatActivity {
         }
     };
 
+    public void GoLogin(View view) {
+    }
+
 
 
     /*public void GoLogin(View view) {

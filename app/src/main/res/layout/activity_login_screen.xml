@@ -42,5 +42,6 @@
         android:onClick="GoLogin"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passText" />
+        app:layout_constraintTop_toBottomOf="@+id/passText"
+         />
 </androidx.constraintlayout.widget.ConstraintLayout>
