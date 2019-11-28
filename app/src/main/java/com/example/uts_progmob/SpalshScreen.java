@@ -14,7 +14,7 @@ public class SpalshScreen extends AppCompatActivity {
         setContentView(R.layout.activity_spalsh_screen);
     }
 
-    public void GoCuk(View view) {
+    public void KlickME(View view) {
         Intent intent = new Intent(SpalshScreen.this, LoginScreen.class);
         startActivity(intent);
     }

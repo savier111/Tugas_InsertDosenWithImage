@@ -1,16 +1,26 @@
 package com.example.uts_progmob.Model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class DataDosen {
-    public String nidnNama;
-    public String gelar;
-    public String alamat;
-    public String email;
+    @SerializedName("nidnNama")
+    private String nidnNama;
+    @SerializedName("gelar")
+    private String gelar;
+    @SerializedName("alamat")
+    private String alamat;
+    @SerializedName("email")
+    private String email;
+    //public String nidnNama;
+    //public String gelar;
+    //public String alamat;
+    //public String email;
 
     public DataDosen(String nidnNama, String gelar, String alamat, String email) {
-        this.nidnNama = nidnNama;
-        this.gelar = gelar;
-        this.alamat = alamat;
-        this.email = email;
+        this.setNidnNama(nidnNama);
+        this.setGelar(gelar);
+        this.setAlamat(alamat);
+        this.setEmail(email);
     }
 
     public String getNidnNama() {
@@ -34,14 +44,12 @@ public class DataDosen {
     }
 
     public void setAlamat(String alamat) {
-        alamat = alamat;
+        this.alamat = alamat;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        email = email;
-    }
+    public void setEmail(String email) { this.email = email; }
 }

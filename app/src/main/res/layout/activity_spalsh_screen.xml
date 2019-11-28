@@ -12,7 +12,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="177dp"
         android:layout_marginBottom="108dp"
-        android:onClick="GoCuk"
+        android:onClick="KlickME"
         android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
